@@ -19,6 +19,14 @@
 /* If PH3 used with a stronger pull resistor then the following definition needs be included */
 // #define MATRIX_UNSELECT_DRIVE_HIGH
 
+/* Set 0 if debouncing isn't needed */
+#undef DEBOUNCE
+#define DEBOUNCE 4
+
+/* Set Polling rate to 1000Hz */
+#undef USB_POLLING_INTERVAL_MS
+#define USB_POLLING_INTERVAL_MS 1
+
 /* RGB Matrix Driver Configuration */
 #define DRIVER_COUNT 2
 #define DRIVER_ADDR_1 0b1110111
