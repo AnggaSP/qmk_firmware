@@ -19,6 +19,9 @@
         "rgb_matrix": true,
         "rgblight": false
     },
+    "build": {
+        "debounce_type": "sym_defer_pk"
+    },
     "matrix_pins": {
         "cols": ["C14", "C15", "A0", "A1", "A2", "A3", "A4", "A5", "A6", "A7", "B0", "B1", "A8", "A9", "H3"],
         "rows": ["B4", "B3", "A15", "A14", "A13"]
