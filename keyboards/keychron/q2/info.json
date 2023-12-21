@@ -53,6 +53,9 @@
         },
         "driver": "snled27351"
     },
+    "build": {
+        "debounce_type": "sym_defer_pk"
+    },
     "url": "https://github.com/Keychron",
     "usb": {
         "vid": "0x3434"
