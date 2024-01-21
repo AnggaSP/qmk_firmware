@@ -56,6 +56,7 @@
     "build": {
         "debounce_type": "sym_defer_pk"
     },
+    "debounce": 4,
     "url": "https://github.com/Keychron",
     "usb": {
         "vid": "0x3434"
